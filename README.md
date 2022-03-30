@@ -25,19 +25,17 @@ Tracks cryptocurrency statistics and displays it in a table format. Also will im
 
 **Required Must-have Stories**
 
-* User logs in to access previous chats and preference settings
-* User picks what their favorite artist/genre/etc. (Think Spotify interface)
-* Matches have a chat window to get to know each other, with the ability to skip music and unmatch (Tinder Style).
-* Profile pages for each user
-* Settings (Accesibility, Notification, General, etc.)
+* User logs in into his or her account, or registers for an account
+* User views crypto table
+* User can either view crypto prices or click discussion board
+* User can view cryptostatistics
+* User can comment on discussion board
 
 **Optional Nice-to-have Stories**
 
-* Log of past songs/people with album art covers matching
-* Page of most played songs (i.e. songs that most users are connecting through)
-* Profile Add-On: Top music choices, etc.
-* Optional Shuffle Button (i.e. random encounter/random song)
-* Listening/Encounter Queue
+* View profiles of other users
+* A feature to check what coins users are into by viewing profiles
+* Auto update coin prices
 
 ### 2. Screen Archetypes
 
@@ -45,32 +43,29 @@ Tracks cryptocurrency statistics and displays it in a table format. Also will im
 * Register - User signs up or logs into their account
    * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to be properly matched with another person. 
    * ...
-* Messaging Screen - Chat for users to communicate (direct 1-on-1)
-   * Upon selecting music choice users matched and message screen opens
+* Forums list - To see list of discussions
+* Messaging Screen - Chat for users to communicate
 * Profile Screen 
-   * Allows user to upload a photo and fill in information that is interesting to them and others
-* Song Selection Screen.
-   * Allows user to be able to choose their desired song, artist, genre of preference and begin listening and interacting with others.
-* Settings Screen
-   * Lets people change language, and app notification settings.
+   * Allows user to display the coins they like, and other basic information
+* Crypto Screen
+   * Allows user to view basic prices of crypto
+* In-depth Crypto Screen
+   * Allows users to view indepth statistics on cryptocurrencies
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* Music selection
+* Cryptocurrencies
 * Profile
-* Settings
+* Forums
 
-Optional:
-* Music/Encounter Queue
-* Discover (Top Choices)
 
 **Flow Navigation** (Screen to Screen)
 * Forced Log-in -> Account creation if no log in is available
-* Music Selection (Or Queue if Optional) -> Jumps to Chat
-* Profile -> Text field to be modified. 
-* Settings -> Toggle settings
+* Cryptocurrencies -> In-depth crypto screen
+* Forums list -> Messaging screen
+* Forums list -> Profile
 
 ## Wireframes
 <img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
