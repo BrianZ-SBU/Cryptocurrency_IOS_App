@@ -7,6 +7,8 @@ Unit 8: Group Milestone - README
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
+1. [Data Models](#Data-Models)
+1. [Networking](#Networking)
 
 ## Overview
 ### Description
@@ -69,6 +71,33 @@ Tracks cryptocurrency statistics and displays it in a table format. Also will im
 
 ## Wireframes
 <img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
+
+## Data Models
+  * Posts
+     | Property      | Type     | Description |
+     | ------------- | -------- | ------------|
+     | objectId      | String   | unique id for the user post (default field) |
+     | author        | Pointer to User| image author |
+     | commentsCount | Number   | Number of comments in a discussion post |
+     | blurb         | String   | blurb by user |
+
+  
+## Networking
+ * Discussion Screen
+    * (Create / POST) User can create comments in a discussion
+    * (Read / GET) Fetches existing comments in the discussion post 
+ * Home Screen
+    * (Read / GET) Fetches crypto data from CoinAPI.io
+    * (Update / PUT) Updates prices by either auto refresh or pull down 
+ * Statistic Screen
+    * (Read / GET) Fetches further crypto data from CoinAPI.io
+    * (Update / PUT) Updates statistics by either auto refresh or pull down
+ * Profile Screen
+    * (Create / POST) User can add a small blurb about themselves, or what types of coins they are interested in
+    * (Delete) Delete existing blurb
+
+ ## Existing API Endpoints
+  * https://docs.coinapi.io/#md-docs
 
 ### [BONUS] Digital Wireframes & Mockups
 <img src="https://i.imgur.com/lYHn37F.jpg" height=200>
