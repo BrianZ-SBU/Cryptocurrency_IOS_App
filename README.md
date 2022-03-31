@@ -99,8 +99,3 @@ Tracks cryptocurrency statistics and displays it in a table format. Also will im
  ## Existing API Endpoints
   * https://docs.coinapi.io/#md-docs
 
-### [BONUS] Digital Wireframes & Mockups
-<img src="https://i.imgur.com/lYHn37F.jpg" height=200>
-
-### [BONUS] Interactive Prototype
-<img src="https://i.imgur.com/AiKfE5g.gif" width=200>
