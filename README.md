@@ -70,7 +70,7 @@ Tracks cryptocurrency statistics and displays it in a table format. Also will im
 * Forums list -> Profile
 
 ## Wireframes
-<img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
+<img src="https://user-images.githubusercontent.com/98859452/160974104-14871828-8fc1-4db6-ab0e-d552c59ff637.jpg" width=800><br>
 
 ## Data Models
   * Posts
