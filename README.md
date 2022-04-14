@@ -30,7 +30,6 @@ Tracks cryptocurrency statistics and displays it in a table format. Also will im
 * [X] User logs in into his or her account, or registers for an account
 * [X] User views crypto table
 * [X] User can either view crypto prices or click discussion board
-* User can view cryptostatistics
 * User can comment on discussion board
 
 **Optional Nice-to-have Stories**
